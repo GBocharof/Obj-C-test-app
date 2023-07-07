@@ -10,10 +10,15 @@
 		D31D62522A4F26B2002CD63E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D31D62512A4F26B2002CD63E /* AppDelegate.m */; };
 		D31D62552A4F26B2002CD63E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D31D62542A4F26B2002CD63E /* SceneDelegate.m */; };
 		D31D62582A4F26B2002CD63E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D31D62572A4F26B2002CD63E /* ViewController.m */; };
-		D31D625B2A4F26B2002CD63E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D31D62592A4F26B2002CD63E /* Main.storyboard */; };
 		D31D625D2A4F26B3002CD63E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D31D625C2A4F26B3002CD63E /* Assets.xcassets */; };
-		D31D62602A4F26B3002CD63E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D31D625E2A4F26B3002CD63E /* LaunchScreen.storyboard */; };
 		D31D62632A4F26B3002CD63E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D31D62622A4F26B3002CD63E /* main.m */; };
+		D33B55292A52F6DF002B8965 /* CharacterDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D33B55282A52F6DF002B8965 /* CharacterDetailViewController.m */; };
+		D33B552C2A5575F2002B8965 /* DataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D33B552B2A5575F2002B8965 /* DataParser.m */; };
+		D33B552E2A5747EA002B8965 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D33B552D2A5747EA002B8965 /* .gitignore */; };
+		D35069032A503AD800FA7B87 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = D35069022A503AD800FA7B87 /* Character.m */; };
+		D35069062A51709400FA7B87 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D35069052A51709400FA7B87 /* CustomTableViewCell.m */; };
+		D350690C2A51DDC800FA7B87 /* DataFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D350690B2A51DDC800FA7B87 /* DataFileManager.m */; };
+		D35069122A51E61400FA7B87 /* DataNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D35069112A51E61400FA7B87 /* DataNetworkManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,11 +29,22 @@
 		D31D62542A4F26B2002CD63E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		D31D62562A4F26B2002CD63E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D31D62572A4F26B2002CD63E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D31D625A2A4F26B2002CD63E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D31D625C2A4F26B3002CD63E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D31D625F2A4F26B3002CD63E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D31D62612A4F26B3002CD63E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D31D62622A4F26B3002CD63E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D33B55272A52F6DF002B8965 /* CharacterDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CharacterDetailViewController.h; sourceTree = "<group>"; };
+		D33B55282A52F6DF002B8965 /* CharacterDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharacterDetailViewController.m; sourceTree = "<group>"; };
+		D33B552A2A5575F2002B8965 /* DataParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataParser.h; sourceTree = "<group>"; };
+		D33B552B2A5575F2002B8965 /* DataParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataParser.m; sourceTree = "<group>"; };
+		D33B552D2A5747EA002B8965 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		D35069012A503AD800FA7B87 /* Character.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		D35069022A503AD800FA7B87 /* Character.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
+		D35069042A51709400FA7B87 /* CustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		D35069052A51709400FA7B87 /* CustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		D350690A2A51DDC800FA7B87 /* DataFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataFileManager.h; sourceTree = "<group>"; };
+		D350690B2A51DDC800FA7B87 /* DataFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataFileManager.m; sourceTree = "<group>"; };
+		D35069102A51E61400FA7B87 /* DataNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataNetworkManager.h; sourceTree = "<group>"; };
+		D35069112A51E61400FA7B87 /* DataNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataNetworkManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +61,7 @@
 		D31D62442A4F26B2002CD63E = {
 			isa = PBXGroup;
 			children = (
+				D33B552D2A5747EA002B8965 /* .gitignore */,
 				D31D624F2A4F26B2002CD63E /* Obj-C test app */,
 				D31D624E2A4F26B2002CD63E /* Products */,
 			);
@@ -65,15 +82,49 @@
 				D31D62512A4F26B2002CD63E /* AppDelegate.m */,
 				D31D62532A4F26B2002CD63E /* SceneDelegate.h */,
 				D31D62542A4F26B2002CD63E /* SceneDelegate.m */,
-				D31D62562A4F26B2002CD63E /* ViewController.h */,
-				D31D62572A4F26B2002CD63E /* ViewController.m */,
-				D31D62592A4F26B2002CD63E /* Main.storyboard */,
+				D350690F2A51DF9D00FA7B87 /* Model */,
+				D350690E2A51DF8200FA7B87 /* View */,
+				D350690D2A51DF4B00FA7B87 /* Controller */,
 				D31D625C2A4F26B3002CD63E /* Assets.xcassets */,
-				D31D625E2A4F26B3002CD63E /* LaunchScreen.storyboard */,
 				D31D62612A4F26B3002CD63E /* Info.plist */,
 				D31D62622A4F26B3002CD63E /* main.m */,
 			);
 			path = "Obj-C test app";
+			sourceTree = "<group>";
+		};
+		D350690D2A51DF4B00FA7B87 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D31D62562A4F26B2002CD63E /* ViewController.h */,
+				D31D62572A4F26B2002CD63E /* ViewController.m */,
+				D33B55272A52F6DF002B8965 /* CharacterDetailViewController.h */,
+				D33B55282A52F6DF002B8965 /* CharacterDetailViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D350690E2A51DF8200FA7B87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D35069042A51709400FA7B87 /* CustomTableViewCell.h */,
+				D35069052A51709400FA7B87 /* CustomTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D350690F2A51DF9D00FA7B87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D35069102A51E61400FA7B87 /* DataNetworkManager.h */,
+				D35069112A51E61400FA7B87 /* DataNetworkManager.m */,
+				D33B552A2A5575F2002B8965 /* DataParser.h */,
+				D33B552B2A5575F2002B8965 /* DataParser.m */,
+				D350690A2A51DDC800FA7B87 /* DataFileManager.h */,
+				D350690B2A51DDC800FA7B87 /* DataFileManager.m */,
+				D35069012A503AD800FA7B87 /* Character.h */,
+				D35069022A503AD800FA7B87 /* Character.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,9 +184,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D31D62602A4F26B3002CD63E /* LaunchScreen.storyboard in Resources */,
+				D33B552E2A5747EA002B8965 /* .gitignore in Resources */,
 				D31D625D2A4F26B3002CD63E /* Assets.xcassets in Resources */,
-				D31D625B2A4F26B2002CD63E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,32 +197,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				D31D62582A4F26B2002CD63E /* ViewController.m in Sources */,
+				D350690C2A51DDC800FA7B87 /* DataFileManager.m in Sources */,
+				D35069032A503AD800FA7B87 /* Character.m in Sources */,
+				D35069062A51709400FA7B87 /* CustomTableViewCell.m in Sources */,
+				D33B55292A52F6DF002B8965 /* CharacterDetailViewController.m in Sources */,
+				D35069122A51E61400FA7B87 /* DataNetworkManager.m in Sources */,
 				D31D62522A4F26B2002CD63E /* AppDelegate.m in Sources */,
 				D31D62632A4F26B3002CD63E /* main.m in Sources */,
+				D33B552C2A5575F2002B8965 /* DataParser.m in Sources */,
 				D31D62552A4F26B2002CD63E /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		D31D62592A4F26B2002CD63E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D31D625A2A4F26B2002CD63E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D31D625E2A4F26B3002CD63E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D31D625F2A4F26B3002CD63E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D31D62642A4F26B3002CD63E /* Debug */ = {
@@ -297,7 +334,7 @@
 				INFOPLIST_FILE = "Obj-C test app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -308,7 +345,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "GBocharov.Obj-C-test-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -324,7 +361,7 @@
 				INFOPLIST_FILE = "Obj-C test app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -335,7 +372,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "GBocharov.Obj-C-test-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
